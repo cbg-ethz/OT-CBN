@@ -1,0 +1,15 @@
+Package: otcbn
+Type: Package
+Title: Observed Time Conjunctive Bayesian Network (OT-CBN)
+Version: 1.07.0
+Date: 2013-12-05
+Author: Hesam Montazeri
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: Observed Time Conjunctive Bayesian Network (OT-CBN) ....
+Depends: foreach, truncnorm
+License: What license is it under?
+Suggests: testthat
+Collate: 'cbn_sampler.r' 'otcbn_common.R' 'otcbn_em.r'
+        'otcbn_fast_e_prec.r' 'marginal_prob.r'
+        'expected_sampling_time.r' 'otcbn_fast_e.R' 'poset_learning.r'
+Packaged: 2014-08-14 13:46:14 UTC; hesamm

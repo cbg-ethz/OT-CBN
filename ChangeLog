@@ -1,0 +1,47 @@
+2014-7-7
+  version 1.07.0
+  * Change the functions make_random_poset and sampling.norm to be consistent with the manuscript.
+
+2014-20-6
+  version 1.06.9
+  * Fix the bug that the function probability_of_compatible_genoptype was not working correctly when
+    the number of mutations is one
+
+2014-11-6
+	version 1.06.8
+	*E_fast method is implemented by using the logsumexp trick to avoid underflow/overflow
+
+2014-28-5
+	version 1.06.1-1.06.6
+	* otcbn_prec is added to the package. If one use source command to load all the R files, this function works similar to the otcbn command otherwise it does not work correctly (strange!) 
+
+2014-03-4
+  version 1.06
+        * Fix the bug in the E function. Parameters Lambda should be sorted for the observed mutations. E_fast_prec still wrong
+        * Fix the bug in the function sampling.norm. Now we use the package 'truncnorm' for generating positive sampling times
+
+2014-02-24
+  version 1.05
+        * Fix the bug in the function probability_of_compatible_genoptype 
+
+2013-12-16
+  version 1.04
+        * Add get_compatible_observations function to the package
+
+2013-12-16
+  version 1.03
+        * Add some information to the DESCRIPTION file
+        * add methods for computing the expected sampling times
+
+2013-12-16
+  version 1.02
+        * Add some information to the DESCRIPTION file
+        * Add the method probability_of_compatible_genoptype to the package
+
+2013-12-6
+  version 1.01
+        * Add computing marginal probabilities to the package
+
+2013-12-1
+  version 1.01
+    * build the package for the ot-cbn code
