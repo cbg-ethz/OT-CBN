@@ -4,7 +4,7 @@ Title: Observed Time Conjunctive Bayesian Network (OT-CBN)
 Version: 1.07.0
 Date: 2013-12-05
 Author: Hesam Montazeri
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Hesam Montazeri<hesam.montazeri@bsse.ethz.ch>
 Description: Observed Time Conjunctive Bayesian Network (OT-CBN) ....
 Depends: foreach, truncnorm
 License: What license is it under?
